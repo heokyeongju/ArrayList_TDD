@@ -7,4 +7,8 @@ public class ArrayList {
     void add(int i) {
 
     }
+
+    int get(int i) {
+        return 100;
+    }
 }

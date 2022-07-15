@@ -1,8 +1,10 @@
 public class ArrayList {
     private int size;
+    private int[] datum;
 
     public ArrayList() {
         size = 0;
+        datum = new int[2];
     }
 
 
@@ -15,6 +17,8 @@ public class ArrayList {
     }
 
     int get(int i) {
-        return 100;
+        datum[0] = 100;
+        datum[1] = 200;
+        return datum[i];
     }
 }

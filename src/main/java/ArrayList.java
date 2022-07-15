@@ -12,13 +12,17 @@ public class ArrayList {
         return size;
     }
 
-    void add(int i) {
+    public void add(int i) {
         size++;
     }
 
-    int get(int i) {
+    public int get(int i) {
         datum[0] = 100;
         datum[1] = 200;
         return datum[i];
+    }
+
+    public void removeAt(int i) {
+
     }
 }

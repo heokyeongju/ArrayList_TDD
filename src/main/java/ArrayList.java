@@ -1,1 +1,6 @@
-public class ArrayList {}
+public class ArrayList {
+
+    int size() {
+        return 0;
+    }
+}

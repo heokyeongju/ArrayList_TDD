@@ -4,7 +4,7 @@ public class ArrayList {
 
     public ArrayList() {
         size = 0;
-        datum = new int[2];
+        datum = new int[5];
     }
 
 
@@ -13,16 +13,16 @@ public class ArrayList {
     }
 
     public void add(int i) {
+        datum[size] = i;
         size++;
     }
 
     public int get(int i) {
-        datum[0] = 100;
-        datum[1] = 200;
         return datum[i];
     }
 
     public void removeAt(int i) {
-
+        datum[i] = datum[i+1];
+        size--;
     }
 }

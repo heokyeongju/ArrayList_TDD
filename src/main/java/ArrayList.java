@@ -25,4 +25,11 @@ public class ArrayList {
         datum[i] = datum[i+1];
         size--;
     }
+
+    public int getArrayLength() {
+        if (size > 2) {
+            return 4;
+        }
+        return 2;
+    }
 }

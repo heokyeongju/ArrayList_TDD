@@ -32,4 +32,12 @@ public class ArrayList {
         }
         return 2;
     }
+
+    public void showAllValues() {
+        System.out.println("== 전체 데이터 출력 ==");
+        for(int i=0; i<size; i++){
+            System.out.printf("%d : %d",i, datum[i]);
+        }
+
+    }
 }
